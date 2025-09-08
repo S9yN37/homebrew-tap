@@ -22,6 +22,7 @@ class Subtitletools < Formula
 
     # Copy config next to binary
     cp "appsettings.json", bin/"appsettings.json"
+    cp "SubtitleTools.pdb", bin/"SubtitleTools.pdb"
   end
 
   test do
