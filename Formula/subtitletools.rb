@@ -17,12 +17,10 @@ class Subtitletools < Formula
   end
 
   def install
-    # Extract binary and rename to SubtitleTools
-    bin.install "SubtitleTools" # adjust if binary is inside a folder in tarball
-
-    # Copy config next to binary
-    cp "appsettings.json", bin/"appsettings.json"
-    cp "SubtitleTools.pdb", bin/"SubtitleTools.pdb"
+    # Install the pre-compiled binary and supporting files
+    bin.install "SubtitleTools"
+    bin.install "appsettings.json"
+    bin.install "SubtitleTools.pdb" if build.with?("debug")
   end
 
   test do
