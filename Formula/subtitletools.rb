@@ -19,6 +19,9 @@ class Subtitletools < Formula
   def install
     # Extract binary and rename to SubtitleTools
     bin.install "SubtitleTools" # adjust if binary is inside a folder in tarball
+
+    # Copy config next to binary
+    cp "appsettings.json", bin/"appsettings.json"
   end
 
   test do
