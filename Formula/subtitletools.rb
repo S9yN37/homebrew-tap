@@ -1,4 +1,4 @@
-class SubtitleTools < Formula
+class Subtitletools < Formula
   desc "A command-line tool for managing and synchronizing subtitle files"
   homepage "https://github.com/S9yN37/SubtitleTools"
   url "https://github.com/S9yN37/SubtitleTools/archive/refs/tags/v1.0.0.tar.gz"
