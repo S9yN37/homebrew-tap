@@ -6,7 +6,8 @@ class Subtitletools < Formula
   version "1.0.0"
   license "MIT"
 
-  depends_on "python@3.12" # or other dependencies
+  depends_on "python@3.13"
+  depends_on "python-setuptools"
 
   def install
     system "python3", *Language::Python.setup_install_args(prefix)
