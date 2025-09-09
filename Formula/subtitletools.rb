@@ -1,18 +1,18 @@
 class Subtitletools < Formula
   desc "A command-line tool for managing and synchronizing subtitle files"
   homepage "https://github.com/S9yN37/SubtitleTools"
-  version "v1.0.0"
+  version "v1.0.1"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/S9yN37/SubtitleTools/releases/download/v1.0.0/SubtitleTools-v1.0.0-osx-x64.tar.gz"
-      sha256 "cd82b4470ab732e1e5be6721f722e53c37604e79a55eb11a3619a2047ec73b8e"
+      url "https://github.com/S9yN37/SubtitleTools/releases/download/v1.0.1/SubtitleTools-v1.0.1-osx-x64.tar.gz"
+      sha256 "dc9f584f8a42039d290259dd3e936637d968172a0c11c6a99bc1e5a36da153d4"
     end
 
     on_arm do
-      url "https://github.com/S9yN37/SubtitleTools/releases/download/v1.0.0/SubtitleTools-v1.0.0-osx-arm64.tar.gz"
-      sha256 "1c25bf86d6db9433dcae42ea368500c8901c33b931ed9b012bfe0f182603f3c5"
+      url "https://github.com/S9yN37/SubtitleTools/releases/download/v1.0.1/SubtitleTools-v1.0.1-osx-arm64.tar.gz"
+      sha256 "57b662f385dd7a511e47cb6c8b34e5939767b5533275c40dfe1e128fff036615"
     end
   end
 
