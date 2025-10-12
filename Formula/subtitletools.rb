@@ -23,6 +23,14 @@ class Subtitletools < Formula
     bin.install "SubtitleTools.pdb" if build.with?("debug")
   end
 
+  def caveats
+    <<~EOS
+      macOS may block the binary because it's not signed by an identified developer.
+      To allow it, run:
+        xattr -dr com.apple.quarantine "$(which subtitletools)"
+    EOS
+  end
+
   test do
     system "#{bin}/SubtitleTools", "--help"
   end
