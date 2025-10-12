@@ -27,7 +27,7 @@ class Subtitletools < Formula
     <<~EOS
       macOS may block the binary because it's not signed by an identified developer.
       To allow it, run:
-        xattr -dr com.apple.quarantine "$(which subtitletools)"
+        sudo xattr -dr com.apple.quarantine "$(readlink -f $(which SubtitleTools))"
     EOS
   end
 
