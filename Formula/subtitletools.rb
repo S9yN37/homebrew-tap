@@ -7,12 +7,12 @@ class Subtitletools < Formula
   on_macos do
     on_intel do
       url "https://github.com/S9yN37/SubtitleTools/releases/download/v1.1.1/SubtitleTools-v1.1.1-osx-x64.tar.gz"
-      sha256 "d8560b99c130b8f5fd871f0bd97a8d6dbdedaf284185b95a309c60f39dcced5a"
+      sha256 "4fd6fe897f507682bc1a198f875d82af3bbb5e8c27963e202eb7331cc2826da2"
     end
 
     on_arm do
       url "https://github.com/S9yN37/SubtitleTools/releases/download/v1.1.1/SubtitleTools-v1.1.1-osx-arm64.tar.gz"
-      sha256 "bec47fb9ce0c181a95cf070ff00c7a5f758ef33a7750ce0b7fc3da1a4952f878"
+      sha256 "5905b6110e0f88364e1abf811f12777f5f45aa5ea999dc9da72775977462a49a"
     end
   end
 
